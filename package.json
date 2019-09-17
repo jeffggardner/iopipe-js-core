@@ -1,6 +1,6 @@
 {
-  "name": "@iopipe/iopipe-core",
-  "version": "0.0.0-semantically-released",
+  "name": "@republicservices/iopipe",
+  "version": "1.1.0",
   "description": "IOpipe Lambda Analytics & Tracing Agent",
   "main": "dist/iopipe.js",
   "scripts": {
@@ -47,9 +47,6 @@
     "node": ">=4.3.2"
   },
   "devDependencies": {
-    "@iopipe/config": "^0.3.0",
-    "@iopipe/scripts": "^1.4.1",
-    "@iopipe/trace": "^0.3.0",
     "aws-lambda-mock-context": "^3.0.0",
     "aws-sdk": "^2.164.0",
     "babel-core": "^6.25.0",
@@ -85,8 +82,12 @@
     ]
   },
   "dependencies": {
+    "@iopipe/config": "^0.3.0",
+    "@iopipe/scripts": "^1.4.1",
+    "@iopipe/trace": "^0.3.0",
     "cosmiconfig": "^4",
     "lodash.uniqby": "^4.7.0",
+    "semantic-release": "^15.13.24",
     "simple-get": "^3.0.2"
   },
   "eslintConfig": {
